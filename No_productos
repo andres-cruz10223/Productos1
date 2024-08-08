@@ -1,0 +1,12 @@
+<html>
+<body>
+    <form name ="Productos" class="formulario" action="Produ.php" method="POST">
+      <table class="tabla" border="1">
+        <tr>
+          <td> No_producto</td>
+          <td> <input type="text" name="No_producto"</td>
+        </tr>
+        <tr>
+          <td> Precio</td>
+          <td> <input type="text" name="Precio" </td>
+        </tr>
