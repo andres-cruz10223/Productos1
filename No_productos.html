@@ -1,31 +1,26 @@
 <html>
 <body>
-    <form name ="Productos" class="formulario" action="Produ.php" method="POST">
-      <table class="tabla" border="1">
-        <tr>
-          <td> No_producto1</td>
-          <td> <input type="text" name="No_producto"</td>
-              <td> Precio1</td>
-            <td> <input type="text" name="Precio1"</td>
-        </tr>
-        <tr>
-             <tr>
-          <td> No_producto2</td>
-          <td> <input type="text" name="No_producto2"</td>
-               <td> Precio2</td>
-            <td> <input type="text" name="Precio2"</td>
-        </tr> <tr>
-          <td> No_producto3</td>
-          <td> <input type="text" name="No_producto3"</td>
-               <td> Precio3</td>
-            <td> <input type="text" name="Precio3"</td>
-        </tr>
-          <tr>
-          <td> Precio</td>
-          <td> <input type="text" name="Precio" </td>
-        </tr>
-      </table>
-        <td> <input type ="submit" values="enviar datos" class="boton"> </td>
+    h1>Ingresa los productos</h1>
+    <form action="procesar.php" method="POST">
+        <label for="producto1">Nombre del Producto 1:</label><br>
+        <input type="text" id="producto1" name="producto1" required><br><br>
+
+        <label for="precio1">Precio del Producto 1:</label><br>
+        <input type="number" id="precio1" name="precio1" step="0.01" required><br><br>
+
+        <label for="producto2">Nombre del Producto 2:</label><br>
+        <input type="text" id="producto2" name="producto2" required><br><br>
+
+        <label for="precio2">Precio del Producto 2:</label><br>
+        <input type="number" id="precio2" name="precio2" step="0.01" required><br><br>
+
+        <label for="producto3">Nombre del Producto 3:</label><br>
+        <input type="text" id="producto3" name="producto3" required><br><br>
+
+        <label for="precio3">Precio del Producto 3:</label><br>
+        <input type="number" id="precio3" name="precio3" step="0.01" required><br><br>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
